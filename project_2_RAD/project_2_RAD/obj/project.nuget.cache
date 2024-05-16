@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HDjXvUPXfliET+6eS6ioREFlbmT0Lr/0VRdeVjvCD3WlJMvvBUSosxXxsvskplma8w8PhGoiYJ/+Yecy/zOO5w==",
+  "dgSpecHash": "i2KnM+144Xlm4r8vW1/7ecHPSPzbtaoJ8D6wo/ZqItOdAAUGRfI2Zcj2jfhO8W1jdadt26uJI2YqYGu7/WQwnw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alex\\Desktop\\C#\\project_2_RAD\\project_2_RAD\\project_2_RAD.csproj",
+  "projectFilePath": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\project_2_RAD\\project_2_RAD\\project_2_RAD.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alex\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
@@ -12,5 +12,16 @@
     "C:\\Users\\Alex\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "У пакета \"Npgsql\" 8.0.2 есть известная уязвимость https://github.com/advisories/GHSA-x9vc-6hfv-hg8c (уровень серьезности: высокий уровень)",
+      "libraryId": "Npgsql",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
 }

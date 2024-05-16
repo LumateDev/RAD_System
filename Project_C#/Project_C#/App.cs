@@ -1,6 +1,7 @@
 using System;
 using System.Data;
 using Npgsql;
+using project_RAD;
 
 
 namespace Project_C_
@@ -23,12 +24,14 @@ namespace Project_C_
 
         private void productShowBtn_Click(object sender, EventArgs e)
         {
-
+            this.StartPosition = FormStartPosition.CenterScreen;
+            Products p = new Products(con);
+            p.ShowDialog();
         }
 
         private void producersShowBtn_Click(object sender, EventArgs e)
         {
-
+           
         }
 
         private void buyShowBtn_Click(object sender, EventArgs e)

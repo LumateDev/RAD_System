@@ -14,4 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = project_2_RAD
-build_property.ProjectDir = C:\Users\Alex\Desktop\C#\project_2_RAD\project_2_RAD\
+build_property.ProjectDir = C:\Users\Alex\Desktop\C#\RAD_System\project_2_RAD\project_2_RAD\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

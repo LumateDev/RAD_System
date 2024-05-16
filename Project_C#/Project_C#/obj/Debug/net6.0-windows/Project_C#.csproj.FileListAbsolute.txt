@@ -1,0 +1,16 @@
+C:\Users\Alex\Desktop\C#\Project_C#\Project_C#\bin\Debug\net6.0-windows\Project_C#.exe
+C:\Users\Alex\Desktop\C#\Project_C#\Project_C#\bin\Debug\net6.0-windows\Project_C#.deps.json
+C:\Users\Alex\Desktop\C#\Project_C#\Project_C#\bin\Debug\net6.0-windows\Project_C#.runtimeconfig.json
+C:\Users\Alex\Desktop\C#\Project_C#\Project_C#\bin\Debug\net6.0-windows\Project_C#.dll
+C:\Users\Alex\Desktop\C#\Project_C#\Project_C#\bin\Debug\net6.0-windows\Project_C#.pdb
+C:\Users\Alex\Desktop\C#\Project_C#\Project_C#\obj\Debug\net6.0-windows\Project_C_.Form1.resources
+C:\Users\Alex\Desktop\C#\Project_C#\Project_C#\obj\Debug\net6.0-windows\Project_C#.csproj.GenerateResource.cache
+C:\Users\Alex\Desktop\C#\Project_C#\Project_C#\obj\Debug\net6.0-windows\Project_C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alex\Desktop\C#\Project_C#\Project_C#\obj\Debug\net6.0-windows\Project_C#.AssemblyInfoInputs.cache
+C:\Users\Alex\Desktop\C#\Project_C#\Project_C#\obj\Debug\net6.0-windows\Project_C#.AssemblyInfo.cs
+C:\Users\Alex\Desktop\C#\Project_C#\Project_C#\obj\Debug\net6.0-windows\Project_C#.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Desktop\C#\Project_C#\Project_C#\obj\Debug\net6.0-windows\Project_C#.dll
+C:\Users\Alex\Desktop\C#\Project_C#\Project_C#\obj\Debug\net6.0-windows\refint\Project_C#.dll
+C:\Users\Alex\Desktop\C#\Project_C#\Project_C#\obj\Debug\net6.0-windows\Project_C#.pdb
+C:\Users\Alex\Desktop\C#\Project_C#\Project_C#\obj\Debug\net6.0-windows\Project_C#.genruntimeconfig.cache
+C:\Users\Alex\Desktop\C#\Project_C#\Project_C#\obj\Debug\net6.0-windows\ref\Project_C#.dll

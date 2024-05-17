@@ -31,7 +31,9 @@ namespace Project_C_
 
         private void producersShowBtn_Click(object sender, EventArgs e)
         {
-           
+            this.StartPosition = FormStartPosition.CenterScreen;
+            Producers p = new Producers(con);
+            p.ShowDialog();
         }
 
         private void buyShowBtn_Click(object sender, EventArgs e)

@@ -38,7 +38,9 @@ namespace Project_C_
 
         private void buyShowBtn_Click(object sender, EventArgs e)
         {
-
+            this.StartPosition = FormStartPosition.CenterScreen;
+            Producement p = new Producement(con);
+            p.ShowDialog();
         }
 
         private void invoiceShowBtn_Click(object sender, EventArgs e)

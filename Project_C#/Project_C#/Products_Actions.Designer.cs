@@ -39,10 +39,11 @@
             // formButtonAdd
             // 
             formButtonAdd.BackColor = Color.LimeGreen;
+            formButtonAdd.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             formButtonAdd.Location = new Point(64, 166);
             formButtonAdd.Margin = new Padding(1);
             formButtonAdd.Name = "formButtonAdd";
-            formButtonAdd.Size = new Size(118, 31);
+            formButtonAdd.Size = new Size(118, 44);
             formButtonAdd.TabIndex = 0;
             formButtonAdd.Text = "Добавить товар";
             formButtonAdd.UseVisualStyleBackColor = false;
@@ -67,10 +68,11 @@
             // butttonCancel
             // 
             butttonCancel.BackColor = Color.IndianRed;
+            butttonCancel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             butttonCancel.Location = new Point(195, 167);
             butttonCancel.Margin = new Padding(1);
             butttonCancel.Name = "butttonCancel";
-            butttonCancel.Size = new Size(118, 28);
+            butttonCancel.Size = new Size(118, 43);
             butttonCancel.TabIndex = 3;
             butttonCancel.Text = "Отмена";
             butttonCancel.UseVisualStyleBackColor = false;

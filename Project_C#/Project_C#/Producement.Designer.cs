@@ -51,82 +51,96 @@
             // dataGridViewContract
             // 
             dataGridViewContract.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewContract.Location = new Point(23, 32);
+            dataGridViewContract.Location = new Point(11, 16);
+            dataGridViewContract.Margin = new Padding(1, 1, 1, 1);
             dataGridViewContract.Name = "dataGridViewContract";
             dataGridViewContract.RowHeadersWidth = 102;
             dataGridViewContract.RowTemplate.Height = 49;
-            dataGridViewContract.Size = new Size(2028, 483);
+            dataGridViewContract.Size = new Size(954, 236);
             dataGridViewContract.TabIndex = 0;
             // 
             // dataGridViewProductContract
             // 
             dataGridViewProductContract.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewProductContract.Location = new Point(23, 726);
+            dataGridViewProductContract.Location = new Point(11, 354);
+            dataGridViewProductContract.Margin = new Padding(1, 1, 1, 1);
             dataGridViewProductContract.Name = "dataGridViewProductContract";
             dataGridViewProductContract.RowHeadersWidth = 102;
             dataGridViewProductContract.RowTemplate.Height = 49;
-            dataGridViewProductContract.Size = new Size(2012, 507);
+            dataGridViewProductContract.Size = new Size(947, 247);
             dataGridViewProductContract.TabIndex = 1;
             // 
             // buttonConstractAdd
             // 
-            buttonConstractAdd.Location = new Point(36, 566);
+            buttonConstractAdd.Location = new Point(17, 276);
+            buttonConstractAdd.Margin = new Padding(1, 1, 1, 1);
             buttonConstractAdd.Name = "buttonConstractAdd";
-            buttonConstractAdd.Size = new Size(227, 89);
+            buttonConstractAdd.Size = new Size(107, 43);
             buttonConstractAdd.TabIndex = 2;
             buttonConstractAdd.Text = "Добавить";
             buttonConstractAdd.UseVisualStyleBackColor = true;
+            buttonConstractAdd.Click += buttonConstractAdd_Click;
             // 
             // buttonContractEdit
             // 
-            buttonContractEdit.Location = new Point(298, 563);
+            buttonContractEdit.Location = new Point(140, 275);
+            buttonContractEdit.Margin = new Padding(1, 1, 1, 1);
             buttonContractEdit.Name = "buttonContractEdit";
-            buttonContractEdit.Size = new Size(213, 92);
+            buttonContractEdit.Size = new Size(100, 45);
             buttonContractEdit.TabIndex = 3;
             buttonContractEdit.Text = "Изменить";
             buttonContractEdit.UseVisualStyleBackColor = true;
+            buttonContractEdit.Click += buttonContractEdit_Click;
             // 
             // buttonContractDelete
             // 
-            buttonContractDelete.Location = new Point(560, 562);
+            buttonContractDelete.Location = new Point(264, 274);
+            buttonContractDelete.Margin = new Padding(1, 1, 1, 1);
             buttonContractDelete.Name = "buttonContractDelete";
-            buttonContractDelete.Size = new Size(213, 94);
+            buttonContractDelete.Size = new Size(100, 46);
             buttonContractDelete.TabIndex = 4;
             buttonContractDelete.Text = "Удалить";
             buttonContractDelete.UseVisualStyleBackColor = true;
+            buttonContractDelete.Click += buttonContractDelete_Click;
             // 
             // buttonProductContractAdd
             // 
-            buttonProductContractAdd.Location = new Point(36, 1263);
+            buttonProductContractAdd.Location = new Point(17, 616);
+            buttonProductContractAdd.Margin = new Padding(1, 1, 1, 1);
             buttonProductContractAdd.Name = "buttonProductContractAdd";
-            buttonProductContractAdd.Size = new Size(206, 84);
+            buttonProductContractAdd.Size = new Size(97, 41);
             buttonProductContractAdd.TabIndex = 5;
             buttonProductContractAdd.Text = "Добавить";
             buttonProductContractAdd.UseVisualStyleBackColor = true;
+            buttonProductContractAdd.Click += buttonProductContractAdd_Click;
             // 
             // buttonProductContractEdit
             // 
-            buttonProductContractEdit.Location = new Point(298, 1263);
+            buttonProductContractEdit.Location = new Point(140, 616);
+            buttonProductContractEdit.Margin = new Padding(1, 1, 1, 1);
             buttonProductContractEdit.Name = "buttonProductContractEdit";
-            buttonProductContractEdit.Size = new Size(213, 84);
+            buttonProductContractEdit.Size = new Size(100, 41);
             buttonProductContractEdit.TabIndex = 6;
             buttonProductContractEdit.Text = "Изменить";
             buttonProductContractEdit.UseVisualStyleBackColor = true;
+            buttonProductContractEdit.Click += buttonProductContractEdit_Click;
             // 
             // buttonProductContractDelete
             // 
-            buttonProductContractDelete.Location = new Point(575, 1263);
+            buttonProductContractDelete.Location = new Point(271, 616);
+            buttonProductContractDelete.Margin = new Padding(1, 1, 1, 1);
             buttonProductContractDelete.Name = "buttonProductContractDelete";
-            buttonProductContractDelete.Size = new Size(198, 84);
+            buttonProductContractDelete.Size = new Size(93, 41);
             buttonProductContractDelete.TabIndex = 7;
             buttonProductContractDelete.Text = "Удалить";
             buttonProductContractDelete.UseVisualStyleBackColor = true;
+            buttonProductContractDelete.Click += buttonProductContractDelete_Click;
             // 
             // Producement
             // 
-            AutoScaleDimensions = new SizeF(17F, 41F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(2075, 1406);
+            ClientSize = new Size(976, 686);
             Controls.Add(buttonProductContractDelete);
             Controls.Add(buttonProductContractEdit);
             Controls.Add(buttonProductContractAdd);
@@ -135,6 +149,7 @@
             Controls.Add(buttonConstractAdd);
             Controls.Add(dataGridViewProductContract);
             Controls.Add(dataGridViewContract);
+            Margin = new Padding(1, 1, 1, 1);
             Name = "Producement";
             Text = "Producement";
             ((System.ComponentModel.ISupportInitialize)dataGridViewContract).EndInit();

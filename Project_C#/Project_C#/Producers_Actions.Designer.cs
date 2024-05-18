@@ -70,22 +70,26 @@
             // 
             // buttonProducerAdd
             // 
+            buttonProducerAdd.BackColor = Color.LimeGreen;
+            buttonProducerAdd.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             buttonProducerAdd.Location = new Point(97, 267);
             buttonProducerAdd.Name = "buttonProducerAdd";
             buttonProducerAdd.Size = new Size(135, 38);
             buttonProducerAdd.TabIndex = 4;
             buttonProducerAdd.Text = "Добавить";
-            buttonProducerAdd.UseVisualStyleBackColor = true;
+            buttonProducerAdd.UseVisualStyleBackColor = false;
             buttonProducerAdd.Click += buttonProducerAdd_Click;
             // 
             // buttonProducerCancel
             // 
+            buttonProducerCancel.BackColor = Color.IndianRed;
+            buttonProducerCancel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             buttonProducerCancel.Location = new Point(256, 267);
             buttonProducerCancel.Name = "buttonProducerCancel";
             buttonProducerCancel.Size = new Size(129, 40);
             buttonProducerCancel.TabIndex = 5;
             buttonProducerCancel.Text = "Отмена";
-            buttonProducerCancel.UseVisualStyleBackColor = true;
+            buttonProducerCancel.UseVisualStyleBackColor = false;
             buttonProducerCancel.Click += buttonProducerCancel_Click;
             // 
             // Producers_Actions

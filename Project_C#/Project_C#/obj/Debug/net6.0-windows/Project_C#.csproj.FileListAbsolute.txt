@@ -1,8 +1,6 @@
 C:\Users\Alex\Desktop\C#\RAD_System\Project_C#\Project_C#\obj\Debug\net6.0-windows\Project_C#.csproj.AssemblyReference.cache
 C:\Users\Alex\Desktop\C#\RAD_System\Project_C#\Project_C#\obj\Debug\net6.0-windows\Project_C_.App.resources
 C:\Users\Alex\Desktop\C#\RAD_System\Project_C#\Project_C#\obj\Debug\net6.0-windows\project_RAD.Producement.resources
-C:\Users\Alex\Desktop\C#\RAD_System\Project_C#\Project_C#\obj\Debug\net6.0-windows\Project_C_.Producement_ContractActions.resources
-C:\Users\Alex\Desktop\C#\RAD_System\Project_C#\Project_C#\obj\Debug\net6.0-windows\Project_C_.Producement_ProductContractActions.resources
 C:\Users\Alex\Desktop\C#\RAD_System\Project_C#\Project_C#\obj\Debug\net6.0-windows\project_RAD.Producers.resources
 C:\Users\Alex\Desktop\C#\RAD_System\Project_C#\Project_C#\obj\Debug\net6.0-windows\project_RAD.Producers_Actions.resources
 C:\Users\Alex\Desktop\C#\RAD_System\Project_C#\Project_C#\obj\Debug\net6.0-windows\project_RAD.Products.resources
@@ -24,9 +22,12 @@ C:\Users\Alex\Desktop\C#\RAD_System\Project_C#\Project_C#\bin\Debug\net6.0-windo
 C:\Users\Alex\Desktop\C#\RAD_System\Project_C#\Project_C#\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
 C:\Users\Alex\Desktop\C#\RAD_System\Project_C#\Project_C#\bin\Debug\net6.0-windows\System.Text.Json.dll
 C:\Users\Alex\Desktop\C#\RAD_System\Project_C#\Project_C#\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
-C:\Users\Alex\Desktop\C#\RAD_System\Project_C#\Project_C#\obj\Debug\net6.0-windows\Project_C#.csproj.CopyComplete
 C:\Users\Alex\Desktop\C#\RAD_System\Project_C#\Project_C#\obj\Debug\net6.0-windows\Project_C#.dll
 C:\Users\Alex\Desktop\C#\RAD_System\Project_C#\Project_C#\obj\Debug\net6.0-windows\refint\Project_C#.dll
 C:\Users\Alex\Desktop\C#\RAD_System\Project_C#\Project_C#\obj\Debug\net6.0-windows\Project_C#.pdb
 C:\Users\Alex\Desktop\C#\RAD_System\Project_C#\Project_C#\obj\Debug\net6.0-windows\Project_C#.genruntimeconfig.cache
 C:\Users\Alex\Desktop\C#\RAD_System\Project_C#\Project_C#\obj\Debug\net6.0-windows\ref\Project_C#.dll
+C:\Users\Alex\Desktop\C#\RAD_System\Project_C#\Project_C#\obj\Debug\net6.0-windows\Project_C#.sourcelink.json
+C:\Users\Alex\Desktop\C#\RAD_System\Project_C#\Project_C#\obj\Debug\net6.0-windows\Project_C#.csproj.Up2Date
+C:\Users\Alex\Desktop\C#\RAD_System\Project_C#\Project_C#\obj\Debug\net6.0-windows\project_RAD.Producement_ContractActions.resources
+C:\Users\Alex\Desktop\C#\RAD_System\Project_C#\Project_C#\obj\Debug\net6.0-windows\project_RAD.Producement_ProductContractActions.resources

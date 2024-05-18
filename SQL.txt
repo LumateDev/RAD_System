@@ -1,0 +1,83 @@
+create table Products (
+	product_id SERIAL primary key,
+	product_name varchar(200) not null,
+	product_price decimal(12,4) not null
+	
+);
+
+
+create table Producers (
+	producer_id SERIAL primary key,
+	producer_name varchar(200) not null,
+	producer_phone varchar(50) not null
+	
+);
+CREATE TABLE Contract (
+	contract_id SERIAL PRIMARY KEY,
+	producer_id INTEGER NOT NULL,
+	total_sum DECIMAL(12,4) NOT NULL,
+	sign_date DATE NOT NULL,
+	payment_status VARCHAR(50) NOT NULL,
+	overdue_payment_status VARCHAR(50) NOT NULL,
+	
+	CHECK (payment_status IN ('оплачено', 'предоплата', 'не оплачено')),
+	CHECK (overdue_payment_status IN ('просрочено', 'не просрочено')),
+	
+	constraint contract_producer_id_fk foreign key(producer_id) references Producers(producer_id) on delete cascade
+);
+
+CREATE TABLE Product_Contract (
+	product_contract_id SERIAL PRIMARY KEY,
+	product_id INTEGER NOT NULL,
+	contract_id INTEGER NOT NULL,
+	product_count integer not null,
+	local_total_sum decimal(12,4),
+	constraint product_contract_product_id_fk foreign key(product_id) references Products(product_id) on delete cascade,
+	constraint product_contract_contract_id_fk foreign key(contract_id) references Contract(contract_id) on delete cascade
+);
+
+CREATE OR REPLACE FUNCTION calculate_local_total_sum()
+RETURNS TRIGGER AS $$
+BEGIN
+    -- Вычисляем local_total_sum путем умножения product_count на product_price из таблицы Products
+    NEW.local_total_sum := NEW.product_count * (SELECT product_price FROM Products WHERE product_id = NEW.product_id);
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+-- Создаем триггер, который вызывает функцию calculate_local_total_sum при вставке в Product_Contract
+CREATE TRIGGER trigger_calculate_local_total_sum
+BEFORE INSERT ON Product_Contract
+FOR EACH ROW EXECUTE FUNCTION calculate_local_total_sum();
+CREATE OR REPLACE FUNCTION update_total_sum()
+RETURNS TRIGGER AS $$
+BEGIN
+    -- Обновляем total_sum в таблице Contract
+    UPDATE Contract SET total_sum = total_sum + NEW.local_total_sum
+    WHERE contract_id = NEW.contract_id;
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+-- Создаем триггер, который вызывает функцию update_total_sum при вставке в Product_Contract
+CREATE TRIGGER trigger_update_total_sum
+AFTER INSERT ON Product_Contract
+FOR EACH ROW EXECUTE FUNCTION update_total_sum();
+alter table contract
+add column payment decimal(12,4) default 0.0000
+CREATE OR REPLACE FUNCTION update_overdue_payment_status()
+RETURNS TRIGGER AS $$
+BEGIN
+    IF NEW.sign_date + INTERVAL '6 months' < CURRENT_DATE THEN
+        NEW.overdue_payment_status := 'просрочено';
+    ELSE
+        NEW.overdue_payment_status := 'не просрочено';
+    END IF;
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+-- Создаем триггер, который вызывает функцию update_overdue_payment_status перед вставкой или обновлением в Contract
+CREATE TRIGGER trigger_update_overdue_payment_status
+BEFORE INSERT OR UPDATE ON Contract
+FOR EACH ROW EXECUTE FUNCTION update_overdue_payment_status();

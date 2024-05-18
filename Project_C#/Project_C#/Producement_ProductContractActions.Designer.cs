@@ -1,4 +1,4 @@
-﻿namespace Project_C_
+﻿namespace project_RAD
 {
     partial class Producement_ProductContractActions
     {
@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             comboBoxContractId = new ComboBox();
-            comboBoxProducerId = new ComboBox();
+            comboBoxProduct = new ComboBox();
             textBoxProductCount = new TextBox();
             labelContractId = new Label();
-            labelProducerId = new Label();
+            labelProducts = new Label();
             labelContractCount = new Label();
             buttonPA_Add = new Button();
             buttonPA_Cancel = new Button();
@@ -41,84 +41,99 @@
             // comboBoxContractId
             // 
             comboBoxContractId.FormattingEnabled = true;
-            comboBoxContractId.Location = new Point(332, 129);
+            comboBoxContractId.Location = new Point(156, 63);
+            comboBoxContractId.Margin = new Padding(1);
             comboBoxContractId.Name = "comboBoxContractId";
-            comboBoxContractId.Size = new Size(302, 49);
+            comboBoxContractId.Size = new Size(144, 28);
             comboBoxContractId.TabIndex = 0;
             // 
-            // comboBoxProducerId
+            // comboBoxProduct
             // 
-            comboBoxProducerId.FormattingEnabled = true;
-            comboBoxProducerId.Location = new Point(332, 302);
-            comboBoxProducerId.Name = "comboBoxProducerId";
-            comboBoxProducerId.Size = new Size(302, 49);
-            comboBoxProducerId.TabIndex = 1;
+            comboBoxProduct.FormattingEnabled = true;
+            comboBoxProduct.Location = new Point(156, 147);
+            comboBoxProduct.Margin = new Padding(1);
+            comboBoxProduct.Name = "comboBoxProduct";
+            comboBoxProduct.Size = new Size(144, 28);
+            comboBoxProduct.TabIndex = 1;
             // 
             // textBoxProductCount
             // 
-            textBoxProductCount.Location = new Point(335, 475);
+            textBoxProductCount.Location = new Point(158, 232);
+            textBoxProductCount.Margin = new Padding(1);
             textBoxProductCount.Name = "textBoxProductCount";
-            textBoxProductCount.Size = new Size(302, 47);
+            textBoxProductCount.Size = new Size(144, 27);
             textBoxProductCount.TabIndex = 2;
             // 
             // labelContractId
             // 
             labelContractId.AutoSize = true;
-            labelContractId.Location = new Point(335, 53);
+            labelContractId.Location = new Point(158, 26);
+            labelContractId.Margin = new Padding(1, 0, 1, 0);
             labelContractId.Name = "labelContractId";
-            labelContractId.Size = new Size(262, 41);
+            labelContractId.Size = new Size(132, 20);
             labelContractId.TabIndex = 3;
             labelContractId.Text = "Укажите контракт";
             // 
-            // labelProducerId
+            // labelProducts
             // 
-            labelProducerId.AutoSize = true;
-            labelProducerId.Location = new Point(335, 229);
-            labelProducerId.Name = "labelProducerId";
-            labelProducerId.Size = new Size(349, 41);
-            labelProducerId.TabIndex = 4;
-            labelProducerId.Text = "Укажите производителя";
+            labelProducts.AutoSize = true;
+            labelProducts.Location = new Point(158, 112);
+            labelProducts.Margin = new Padding(1, 0, 1, 0);
+            labelProducts.Name = "labelProducts";
+            labelProducts.Size = new Size(126, 20);
+            labelProducts.TabIndex = 4;
+            labelProducts.Text = "Укажите продукт";
             // 
             // labelContractCount
             // 
             labelContractCount.AutoSize = true;
-            labelContractCount.Location = new Point(332, 394);
+            labelContractCount.Location = new Point(156, 192);
+            labelContractCount.Margin = new Padding(1, 0, 1, 0);
             labelContractCount.Name = "labelContractCount";
-            labelContractCount.Size = new Size(299, 41);
+            labelContractCount.Size = new Size(150, 20);
             labelContractCount.TabIndex = 5;
             labelContractCount.Text = "Укажите количество";
             // 
             // buttonPA_Add
             // 
-            buttonPA_Add.Location = new Point(268, 583);
+            buttonPA_Add.BackColor = Color.LimeGreen;
+            buttonPA_Add.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            buttonPA_Add.Location = new Point(106, 284);
+            buttonPA_Add.Margin = new Padding(1);
             buttonPA_Add.Name = "buttonPA_Add";
-            buttonPA_Add.Size = new Size(188, 58);
+            buttonPA_Add.Size = new Size(112, 50);
             buttonPA_Add.TabIndex = 6;
             buttonPA_Add.Text = "Добавить";
-            buttonPA_Add.UseVisualStyleBackColor = true;
+            buttonPA_Add.UseVisualStyleBackColor = false;
+            buttonPA_Add.Click += buttonPA_Add_Click;
             // 
             // buttonPA_Cancel
             // 
-            buttonPA_Cancel.Location = new Point(511, 583);
+            buttonPA_Cancel.BackColor = Color.IndianRed;
+            buttonPA_Cancel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            buttonPA_Cancel.Location = new Point(249, 284);
+            buttonPA_Cancel.Margin = new Padding(1);
             buttonPA_Cancel.Name = "buttonPA_Cancel";
-            buttonPA_Cancel.Size = new Size(188, 58);
+            buttonPA_Cancel.Size = new Size(103, 50);
             buttonPA_Cancel.TabIndex = 7;
             buttonPA_Cancel.Text = "Отмена";
-            buttonPA_Cancel.UseVisualStyleBackColor = true;
+            buttonPA_Cancel.UseVisualStyleBackColor = false;
+            buttonPA_Cancel.Click += buttonPA_Cancel_Click;
             // 
             // Producement_ProductContractActions
             // 
-            AutoScaleDimensions = new SizeF(17F, 41F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(968, 706);
+            ClientSize = new Size(456, 344);
             Controls.Add(buttonPA_Cancel);
             Controls.Add(buttonPA_Add);
             Controls.Add(labelContractCount);
-            Controls.Add(labelProducerId);
+            Controls.Add(labelProducts);
             Controls.Add(labelContractId);
             Controls.Add(textBoxProductCount);
-            Controls.Add(comboBoxProducerId);
+            Controls.Add(comboBoxProduct);
             Controls.Add(comboBoxContractId);
+            Margin = new Padding(1);
             Name = "Producement_ProductContractActions";
             Text = "Producement_ProductContractActions";
             ResumeLayout(false);
@@ -128,10 +143,10 @@
         #endregion
 
         private ComboBox comboBoxContractId;
-        private ComboBox comboBoxProducerId;
+        private ComboBox comboBoxProduct;
         private TextBox textBoxProductCount;
         private Label labelContractId;
-        private Label labelProducerId;
+        private Label labelProducts;
         private Label labelContractCount;
         private Button buttonPA_Add;
         private Button buttonPA_Cancel;

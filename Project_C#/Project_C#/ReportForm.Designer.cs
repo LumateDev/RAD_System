@@ -96,9 +96,9 @@
             // buttonCreateReport
             // 
             buttonCreateReport.Font = new Font("Microsoft JhengHei UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            buttonCreateReport.Location = new Point(72, 558);
+            buttonCreateReport.Location = new Point(56, 562);
             buttonCreateReport.Name = "buttonCreateReport";
-            buttonCreateReport.Size = new Size(249, 40);
+            buttonCreateReport.Size = new Size(278, 50);
             buttonCreateReport.TabIndex = 6;
             buttonCreateReport.Text = "Создать отчёт";
             buttonCreateReport.UseVisualStyleBackColor = true;
@@ -107,9 +107,9 @@
             // buttonExcelReport
             // 
             buttonExcelReport.Font = new Font("Microsoft JhengHei UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            buttonExcelReport.Location = new Point(72, 604);
+            buttonExcelReport.Location = new Point(55, 618);
             buttonExcelReport.Name = "buttonExcelReport";
-            buttonExcelReport.Size = new Size(249, 40);
+            buttonExcelReport.Size = new Size(279, 49);
             buttonExcelReport.TabIndex = 7;
             buttonExcelReport.Text = "Эскорпт в EXCEL";
             buttonExcelReport.UseVisualStyleBackColor = true;
@@ -118,9 +118,9 @@
             // buttonCreateChart
             // 
             buttonCreateChart.Font = new Font("Microsoft JhengHei UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            buttonCreateChart.Location = new Point(71, 650);
+            buttonCreateChart.Location = new Point(55, 673);
             buttonCreateChart.Name = "buttonCreateChart";
-            buttonCreateChart.Size = new Size(250, 39);
+            buttonCreateChart.Size = new Size(279, 48);
             buttonCreateChart.TabIndex = 8;
             buttonCreateChart.Text = "Создать график";
             buttonCreateChart.UseVisualStyleBackColor = true;
@@ -128,9 +128,10 @@
             // 
             // richTextBox1
             // 
+            richTextBox1.Font = new Font("Microsoft JhengHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             richTextBox1.Location = new Point(410, 12);
             richTextBox1.Name = "richTextBox1";
-            richTextBox1.Size = new Size(634, 681);
+            richTextBox1.Size = new Size(760, 729);
             richTextBox1.TabIndex = 9;
             richTextBox1.Text = "";
             // 
@@ -148,7 +149,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1055, 705);
+            ClientSize = new Size(1182, 753);
             Controls.Add(buttonSelectAll);
             Controls.Add(richTextBox1);
             Controls.Add(buttonCreateChart);

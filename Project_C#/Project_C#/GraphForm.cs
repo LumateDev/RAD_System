@@ -32,6 +32,14 @@ namespace project_RAD
         private void InitializeGraph()
         {
             // Очистка предыдущих серий данных
+            // Настройка шрифта для меток оси X
+            //chart.ChartAreas[0].AxisX.LabelStyle.Font = new Font("Arial", 12);
+
+            // Настройка шрифта для меток оси Y
+            chart.ChartAreas[0].AxisY.LabelStyle.Font = new Font("Arial", 12);
+
+            // Настройка шрифта для легенды
+            chart.Legends[0].Font = new Font("Arial", 12);
             chart.Series.Clear();
 
             // Группировка данных по дате
@@ -49,7 +57,9 @@ namespace project_RAD
             foreach (var data in groupedData)
             {
                 series.Points.AddXY(data.Date, data.TotalSum);
+                series.BorderWidth = 3;
             }
+           
 
             // Добавление серии на график
             chart.Series.Add(series);
@@ -62,6 +72,7 @@ namespace project_RAD
 
             // Настройка легенды
             chart.Legends[0].Enabled = true;
+
         }
     }
 }

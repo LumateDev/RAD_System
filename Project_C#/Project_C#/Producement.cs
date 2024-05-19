@@ -37,9 +37,9 @@ namespace project_RAD
             String sql = "Select * from contract";
             String sql1 = "Select * from product_contract";
 
-            /*
+
             // Новые запросы с JOIN для получения имен вместо идентификаторов
-            String sql = @"
+            /*String sql = @"
                 SELECT 
                     c.contract_id, 
                     p.producer_name, 
@@ -63,8 +63,8 @@ namespace project_RAD
                 FROM 
                     product_contract pc
                 JOIN 
-                    products pr ON pc.product_id = pr.product_id";
-            */
+                    products pr ON pc.product_id = pr.product_id";*/
+
 
             NpgsqlDataAdapter da = new NpgsqlDataAdapter(sql, con);
             NpgsqlDataAdapter da1 = new NpgsqlDataAdapter(sql1, con);
@@ -77,23 +77,26 @@ namespace project_RAD
 
             dtContract = dsContract.Tables[0];
             dataGridViewContract.DataSource = dtContract;
-            dataGridViewContract.Columns[0].HeaderText = "contract_id";
-            // dataGridViewContract.Columns[1].HeaderText = "producer_name"; // Изменение заголовка столбца
+            dataGridViewContract.Columns[0].HeaderText = "Номер контракта";
+            //dataGridViewContract.Columns[1].HeaderText = "Производитель"; // Изменение заголовка столбца
             dataGridViewContract.Columns[1].HeaderText = "producer_id"; // Старый заголовок
-            dataGridViewContract.Columns[2].HeaderText = "total sum";
-            dataGridViewContract.Columns[3].HeaderText = "sign date";
-            dataGridViewContract.Columns[4].HeaderText = "payment status";
-            dataGridViewContract.Columns[5].HeaderText = "overdue payment status";
-            dataGridViewContract.Columns[6].HeaderText = "payment";
+            dataGridViewContract.Columns[2].HeaderText = "Итоговая сумма";
+            dataGridViewContract.Columns[3].HeaderText = "Дата заключения";
+            dataGridViewContract.Columns[4].HeaderText = "Статус оплаты";
+            dataGridViewContract.Columns[5].HeaderText = "Статус просроченности";
+            dataGridViewContract.Columns[6].HeaderText = "Внесённая сумма";
 
             dtProductContract = dsProductContract.Tables[0];
             dataGridViewProductContract.DataSource = dtProductContract;
-            dataGridViewProductContract.Columns[0].HeaderText = "product_contract_id";
-            // dataGridViewProductContract.Columns[1].HeaderText = "product_name"; // Изменение заголовка столбца
+            dataGridViewProductContract.Columns[0].HeaderText = "Номер контракта-продукта";
+            //dataGridViewProductContract.Columns[1].HeaderText = "Продукт"; // Изменение заголовка столбца
             dataGridViewProductContract.Columns[1].HeaderText = "product_id"; // Старый заголовок
-            dataGridViewProductContract.Columns[2].HeaderText = "contract_id";
-            dataGridViewProductContract.Columns[3].HeaderText = "product_count";
-            dataGridViewProductContract.Columns[4].HeaderText = "local_total_sum";
+            dataGridViewProductContract.Columns[2].HeaderText = "Номер контракта";
+            dataGridViewProductContract.Columns[3].HeaderText = "Количество";
+            dataGridViewProductContract.Columns[4].HeaderText = "Сумма";
+
+            dataGridViewProductContract.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridViewContract.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
         }
 
         private void buttonConstractAdd_Click(object sender, EventArgs e)
@@ -116,10 +119,10 @@ namespace project_RAD
                 DateTime dateTime = (DateTime)dataGridViewContract.CurrentRow.Cells["sign_date"].Value;
                 decimal payment = (Decimal)dataGridViewContract.CurrentRow.Cells["payment"].Value;
 
-                /*
+                
                 // Найти producer_id по producer_name
-                int producer_id = GetProducerIdByName(producer_name);
-                */
+                //int producer_id = GetProducerIdByName(producer_name);
+                
 
                 Producement_ContractActions pAdd = new Producement_ContractActions(con, "edit", contract_id, producer_id, dateTime, payment, payment_status);
                 pAdd.ShowDialog();
@@ -166,15 +169,15 @@ namespace project_RAD
             try
             {
                 int product_contract_id = (int)dataGridViewProductContract.CurrentRow.Cells["product_contract_id"].Value;
-                // String product_name = (String)dataGridViewProductContract.CurrentRow.Cells["product_name"].Value; // Новая строка
+                //String product_name = (String)dataGridViewProductContract.CurrentRow.Cells["product_name"].Value; // Новая строка
                 int product_id = (int)dataGridViewProductContract.CurrentRow.Cells["product_id"].Value; // Старая строка
                 int contract_id = (int)dataGridViewProductContract.CurrentRow.Cells["contract_id"].Value;
                 int product_count = (int)dataGridViewProductContract.CurrentRow.Cells["product_count"].Value;
 
-                /*
+                
                 // Найти product_id по product_name
-                int product_id = GetProductIdByName(product_name);
-                */
+                //int product_id = GetProductIdByName(product_name);
+                
 
                 Producement_ProductContractActions pAdd = new Producement_ProductContractActions(con, "edit", contract_id, product_id, product_count, product_contract_id);
                 pAdd.ShowDialog();

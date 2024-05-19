@@ -42,44 +42,47 @@
             dataGridViewProducers.Name = "dataGridViewProducers";
             dataGridViewProducers.RowHeadersWidth = 51;
             dataGridViewProducers.RowTemplate.Height = 29;
-            dataGridViewProducers.Size = new Size(749, 252);
+            dataGridViewProducers.Size = new Size(1136, 618);
             dataGridViewProducers.TabIndex = 0;
             // 
             // buttonAddProducer
             // 
-            buttonAddProducer.Location = new Point(25, 317);
+            buttonAddProducer.Font = new Font("Microsoft JhengHei UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            buttonAddProducer.Location = new Point(25, 665);
             buttonAddProducer.Name = "buttonAddProducer";
             buttonAddProducer.Size = new Size(138, 45);
             buttonAddProducer.TabIndex = 1;
             buttonAddProducer.Text = "Добавить";
-            buttonAddProducer.UseVisualStyleBackColor = true;
+            buttonAddProducer.UseVisualStyleBackColor = false;
             buttonAddProducer.Click += buttonAddProducer_Click;
             // 
             // buttonEditProducer
             // 
-            buttonEditProducer.Location = new Point(192, 317);
+            buttonEditProducer.Font = new Font("Microsoft JhengHei UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            buttonEditProducer.Location = new Point(205, 665);
             buttonEditProducer.Name = "buttonEditProducer";
-            buttonEditProducer.Size = new Size(126, 45);
+            buttonEditProducer.Size = new Size(144, 45);
             buttonEditProducer.TabIndex = 2;
             buttonEditProducer.Text = "Изменить";
-            buttonEditProducer.UseVisualStyleBackColor = true;
+            buttonEditProducer.UseVisualStyleBackColor = false;
             buttonEditProducer.Click += buttonEditProducer_Click;
             // 
             // buttonDeleteProducer
             // 
-            buttonDeleteProducer.Location = new Point(352, 317);
+            buttonDeleteProducer.Font = new Font("Microsoft JhengHei UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            buttonDeleteProducer.Location = new Point(389, 665);
             buttonDeleteProducer.Name = "buttonDeleteProducer";
-            buttonDeleteProducer.Size = new Size(122, 45);
+            buttonDeleteProducer.Size = new Size(150, 45);
             buttonDeleteProducer.TabIndex = 3;
             buttonDeleteProducer.Text = "Удалить";
-            buttonDeleteProducer.UseVisualStyleBackColor = true;
+            buttonDeleteProducer.UseVisualStyleBackColor = false;
             buttonDeleteProducer.Click += buttonDeleteProducer_Click;
             // 
             // Producers
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1182, 753);
             Controls.Add(buttonDeleteProducer);
             Controls.Add(buttonEditProducer);
             Controls.Add(buttonAddProducer);

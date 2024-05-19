@@ -38,6 +38,7 @@ namespace project_RAD
             dataGridViewProducers.Columns[0].HeaderText = "id";
             dataGridViewProducers.Columns[1].HeaderText = "Наименование поставщика";
             dataGridViewProducers.Columns[2].HeaderText = "Телефон";
+            dataGridViewProducers.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
         }
 
         private void buttonAddProducer_Click(object sender, EventArgs e)

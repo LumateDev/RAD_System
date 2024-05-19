@@ -39,10 +39,7 @@ namespace project_RAD
             dataGridViewProduct.Columns[1].HeaderText = "Наименование";
             dataGridViewProduct.Columns[2].HeaderText = "Цена";
             //делаем ширину колонок подходящей под содержимое
-            foreach (DataGridViewColumn column in dataGridViewProduct.Columns)
-            {
-                column.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            }
+            dataGridViewProduct.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
         }
 
 

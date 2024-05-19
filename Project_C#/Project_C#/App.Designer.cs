@@ -43,18 +43,20 @@
             panel1.Controls.Add(buyShowBtn);
             panel1.Controls.Add(producersShowBtn);
             panel1.Controls.Add(productShowBtn);
-            panel1.Location = new Point(2, 3);
+            panel1.Location = new Point(1, 1);
+            panel1.Margin = new Padding(1, 1, 1, 1);
             panel1.Name = "panel1";
-            panel1.Size = new Size(2363, 172);
+            panel1.Size = new Size(1182, 84);
             panel1.TabIndex = 0;
             // 
             // invoiceShowBtn
             // 
             invoiceShowBtn.BackColor = SystemColors.Info;
-            invoiceShowBtn.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            invoiceShowBtn.Location = new Point(1800, 44);
+            invoiceShowBtn.Font = new Font("Microsoft JhengHei UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            invoiceShowBtn.Location = new Point(924, 21);
+            invoiceShowBtn.Margin = new Padding(1, 1, 1, 1);
             invoiceShowBtn.Name = "invoiceShowBtn";
-            invoiceShowBtn.Size = new Size(525, 90);
+            invoiceShowBtn.Size = new Size(247, 44);
             invoiceShowBtn.TabIndex = 3;
             invoiceShowBtn.Text = "Накладная";
             invoiceShowBtn.UseVisualStyleBackColor = false;
@@ -63,10 +65,11 @@
             // buyShowBtn
             // 
             buyShowBtn.BackColor = SystemColors.Info;
-            buyShowBtn.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            buyShowBtn.Location = new Point(1226, 44);
+            buyShowBtn.Font = new Font("Microsoft JhengHei UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            buyShowBtn.Location = new Point(622, 21);
+            buyShowBtn.Margin = new Padding(1, 1, 1, 1);
             buyShowBtn.Name = "buyShowBtn";
-            buyShowBtn.Size = new Size(525, 90);
+            buyShowBtn.Size = new Size(247, 44);
             buyShowBtn.TabIndex = 2;
             buyShowBtn.Text = "Закупки";
             buyShowBtn.UseVisualStyleBackColor = false;
@@ -75,10 +78,11 @@
             // producersShowBtn
             // 
             producersShowBtn.BackColor = SystemColors.Info;
-            producersShowBtn.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            producersShowBtn.Location = new Point(624, 44);
+            producersShowBtn.Font = new Font("Microsoft JhengHei UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            producersShowBtn.Location = new Point(302, 21);
+            producersShowBtn.Margin = new Padding(1, 1, 1, 1);
             producersShowBtn.Name = "producersShowBtn";
-            producersShowBtn.Size = new Size(525, 90);
+            producersShowBtn.Size = new Size(247, 44);
             producersShowBtn.TabIndex = 1;
             producersShowBtn.Text = "Поставщики";
             producersShowBtn.UseVisualStyleBackColor = false;
@@ -87,10 +91,11 @@
             // productShowBtn
             // 
             productShowBtn.BackColor = SystemColors.Info;
-            productShowBtn.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            productShowBtn.Location = new Point(30, 44);
+            productShowBtn.Font = new Font("Microsoft JhengHei UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            productShowBtn.Location = new Point(14, 21);
+            productShowBtn.Margin = new Padding(1, 1, 1, 1);
             productShowBtn.Name = "productShowBtn";
-            productShowBtn.Size = new Size(498, 90);
+            productShowBtn.Size = new Size(234, 44);
             productShowBtn.TabIndex = 0;
             productShowBtn.Text = "Товары";
             productShowBtn.UseVisualStyleBackColor = false;
@@ -98,10 +103,11 @@
             // 
             // App
             // 
-            AutoScaleDimensions = new SizeF(17F, 41F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(2368, 1512);
+            ClientSize = new Size(1182, 753);
             Controls.Add(panel1);
+            Margin = new Padding(1, 1, 1, 1);
             Name = "App";
             Text = "Form1";
             panel1.ResumeLayout(false);

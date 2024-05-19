@@ -13,6 +13,7 @@ namespace Project_C_
 
         public App()
         {
+
             InitializeComponent();
             MyLoad();
         }
@@ -21,6 +22,7 @@ namespace Project_C_
             con = new NpgsqlConnection("Server=localhost; Port = 5432; UserID=postgres;Password = admin; Database=RadProject");
             con.Open();
         }
+       
 
         private void productShowBtn_Click(object sender, EventArgs e)
         {
@@ -45,7 +47,25 @@ namespace Project_C_
 
         private void invoiceShowBtn_Click(object sender, EventArgs e)
         {
-
+            List<String> producerNames = new List<String>();
+            string sql = @"
+            SELECT producer_name 
+            FROM producers";
+            NpgsqlCommand command = new NpgsqlCommand(sql, con);
+            NpgsqlDataReader reader = command.ExecuteReader();
+            while (reader.Read())
+            {
+                string producerName = reader.GetString(0);
+                producerNames.Add(producerName);
+            }
+            reader.Close();
+            string[] producerNamesArr = producerNames.ToArray();
+            
+            this.StartPosition = FormStartPosition.CenterScreen;
+            ReportForm rep = new ReportForm(con, producerNamesArr);
+            rep.ShowDialog();
+           
+          
         }
     }
 }

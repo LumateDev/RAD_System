@@ -31,3 +31,9 @@ C:\Users\Alex\Desktop\C#\RAD_System\Project_C#\Project_C#\obj\Debug\net6.0-windo
 C:\Users\Alex\Desktop\C#\RAD_System\Project_C#\Project_C#\obj\Debug\net6.0-windows\Project_C#.csproj.Up2Date
 C:\Users\Alex\Desktop\C#\RAD_System\Project_C#\Project_C#\obj\Debug\net6.0-windows\project_RAD.Producement_ContractActions.resources
 C:\Users\Alex\Desktop\C#\RAD_System\Project_C#\Project_C#\obj\Debug\net6.0-windows\project_RAD.Producement_ProductContractActions.resources
+C:\Users\Alex\Desktop\C#\RAD_System\Project_C#\Project_C#\obj\Debug\net6.0-windows\project_RAD.GraphForm.resources
+C:\Users\Alex\Desktop\C#\RAD_System\Project_C#\Project_C#\bin\Debug\net6.0-windows\WinForms.DataVisualization.Utilities.dll
+C:\Users\Alex\Desktop\C#\RAD_System\Project_C#\Project_C#\bin\Debug\net6.0-windows\WinForms.DataVisualization.dll
+C:\Users\Alex\Desktop\C#\RAD_System\Project_C#\Project_C#\obj\Debug\net6.0-windows\project_RAD.ReportForm.resources
+C:\Users\Alex\Desktop\C#\RAD_System\Project_C#\Project_C#\obj\Debug\net6.0-windows\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\Alex\Desktop\C#\RAD_System\Project_C#\Project_C#\obj\Debug\net6.0-windows\Project_C#.csproj.ResolveComReference.cache

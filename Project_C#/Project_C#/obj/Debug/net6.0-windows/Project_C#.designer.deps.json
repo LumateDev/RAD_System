@@ -88,6 +88,18 @@
             "fileVersion": "8.0.23.53103"
           }
         }
+      },
+      "WinForms.DataVisualization/1.9.2": {
+        "runtime": {
+          "lib/net6.0-windows7.0/WinForms.DataVisualization.Utilities.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.9.2.0"
+          },
+          "lib/net6.0-windows7.0/WinForms.DataVisualization.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.9.2.0"
+          }
+        }
       }
     }
   },
@@ -140,6 +152,13 @@
       "sha512": "sha512-OdrZO2WjkiEG6ajEFRABTRCi/wuXQPxeV6g8xvUJqdxMvvuCCEk86zPla8UiIQJz3durtUEbNyY/3lIhS0yZvQ==",
       "path": "system.text.json/8.0.0",
       "hashPath": "system.text.json.8.0.0.nupkg.sha512"
+    },
+    "WinForms.DataVisualization/1.9.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-e1aPoWqPS1GThTK2ZpI4GkIhteorW7smNQ5SP3y5EaODL7W2u21nX0hlHtmkerBWi9gpy6Rw8I53jvo5CF+4rA==",
+      "path": "winforms.datavisualization/1.9.2",
+      "hashPath": "winforms.datavisualization.1.9.2.nupkg.sha512"
     }
   }
 }

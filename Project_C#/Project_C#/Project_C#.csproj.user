@@ -4,6 +4,9 @@
     <Compile Update="App.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="GraphForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Producement.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -23,6 +26,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Products_Actions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ReportForm.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

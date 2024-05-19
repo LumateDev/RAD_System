@@ -38,18 +38,20 @@
             // dataGridViewProduct
             // 
             dataGridViewProduct.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewProduct.Location = new Point(39, 95);
+            dataGridViewProduct.Location = new Point(18, 46);
+            dataGridViewProduct.Margin = new Padding(1, 1, 1, 1);
             dataGridViewProduct.Name = "dataGridViewProduct";
             dataGridViewProduct.RowHeadersWidth = 102;
             dataGridViewProduct.RowTemplate.Height = 49;
-            dataGridViewProduct.Size = new Size(1027, 375);
+            dataGridViewProduct.Size = new Size(1154, 601);
             dataGridViewProduct.TabIndex = 0;
             // 
             // buttonAddProduct
             // 
-            buttonAddProduct.Location = new Point(39, 523);
+            buttonAddProduct.Location = new Point(18, 684);
+            buttonAddProduct.Margin = new Padding(1, 1, 1, 1);
             buttonAddProduct.Name = "buttonAddProduct";
-            buttonAddProduct.Size = new Size(188, 58);
+            buttonAddProduct.Size = new Size(141, 47);
             buttonAddProduct.TabIndex = 1;
             buttonAddProduct.Text = "Добавить";
             buttonAddProduct.UseVisualStyleBackColor = true;
@@ -57,9 +59,10 @@
             // 
             // buttonDeleteProduct
             // 
-            buttonDeleteProduct.Location = new Point(503, 523);
+            buttonDeleteProduct.Location = new Point(297, 684);
+            buttonDeleteProduct.Margin = new Padding(1, 1, 1, 1);
             buttonDeleteProduct.Name = "buttonDeleteProduct";
-            buttonDeleteProduct.Size = new Size(188, 58);
+            buttonDeleteProduct.Size = new Size(131, 47);
             buttonDeleteProduct.TabIndex = 2;
             buttonDeleteProduct.Text = "Удалить";
             buttonDeleteProduct.UseVisualStyleBackColor = true;
@@ -67,9 +70,10 @@
             // 
             // buttonEditProduct
             // 
-            buttonEditProduct.Location = new Point(267, 523);
+            buttonEditProduct.Location = new Point(166, 684);
+            buttonEditProduct.Margin = new Padding(1, 1, 1, 1);
             buttonEditProduct.Name = "buttonEditProduct";
-            buttonEditProduct.Size = new Size(188, 58);
+            buttonEditProduct.Size = new Size(119, 47);
             buttonEditProduct.TabIndex = 3;
             buttonEditProduct.Text = "Изменить";
             buttonEditProduct.UseVisualStyleBackColor = true;
@@ -77,13 +81,14 @@
             // 
             // Products
             // 
-            AutoScaleDimensions = new SizeF(17F, 41F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1146, 930);
+            ClientSize = new Size(1182, 753);
             Controls.Add(buttonEditProduct);
             Controls.Add(buttonDeleteProduct);
             Controls.Add(buttonAddProduct);
             Controls.Add(dataGridViewProduct);
+            Margin = new Padding(1, 1, 1, 1);
             Name = "Products";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Products";

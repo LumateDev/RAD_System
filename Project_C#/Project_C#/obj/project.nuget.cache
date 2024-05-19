@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rA1aNqrC21GW8bWCYhez07Hzr+u77eFXUx0oiHdHpeoUbp4RENvOXE/LdHLuPYk445zgNWlmG76uXZ0EWJrRoA==",
+  "dgSpecHash": "yDX+e/lBTs68s8JydL1IzPq9nt23MqtwWIIE2biyqupgFb31Xh5rr+is3jSMY/jUInky1H1rZcHG6G0FAEBS4g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\Project_C#.csproj",
   "expectedPackageFiles": [
@@ -10,7 +10,8 @@
     "C:\\Users\\Alex\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.0\\system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
-    "C:\\Users\\Alex\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512"
+    "C:\\Users\\Alex\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
+    "C:\\Users\\Alex\\.nuget\\packages\\winforms.datavisualization\\1.9.2\\winforms.datavisualization.1.9.2.nupkg.sha512"
   ],
   "logs": []
 }

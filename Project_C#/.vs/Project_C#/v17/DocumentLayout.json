@@ -3,23 +3,67 @@
   "WorkspaceRootPath": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|c:\\users\\alex\\desktop\\c#\\rad_system\\project_c#\\project_c#\\producers_actions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|solutionrelative:project_c#\\producers_actions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|c:\\users\\alex\\desktop\\c#\\rad_system\\project_c#\\project_c#\\producement_productcontractactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|solutionrelative:project_c#\\producement_productcontractactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|c:\\users\\alex\\desktop\\c#\\rad_system\\project_c#\\project_c#\\producement_contractactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|solutionrelative:project_c#\\producement_contractactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|c:\\users\\alex\\desktop\\c#\\rad_system\\project_c#\\project_c#\\producement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\project_c#\\producement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|solutionrelative:project_c#\\producement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|c:\\users\\alex\\desktop\\c#\\rad_system\\project_c#\\project_c#\\producement_contractactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|c:\\users\\alex\\desktop\\c#\\rad_system\\project_c#\\project_c#\\reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|solutionrelative:project_c#\\reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\project_c#\\producement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|solutionrelative:project_c#\\producement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\project_c#\\graphform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|solutionrelative:project_c#\\graphform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\project_c#\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|solutionrelative:project_c#\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\project_c#\\producers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|solutionrelative:project_c#\\producers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|c:\\users\\alex\\desktop\\c#\\rad_system\\project_c#\\project_c#\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|solutionrelative:project_c#\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\project_c#\\graphform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|solutionrelative:project_c#\\graphform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\project_c#\\app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|solutionrelative:project_c#\\app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\project_c#\\reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|solutionrelative:project_c#\\reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\project_c#\\app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|solutionrelative:project_c#\\app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\project_c#\\graphform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|solutionrelative:project_c#\\graphform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\project_c#\\producers_actions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|solutionrelative:project_c#\\producers_actions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\project_c#\\producement_productcontractactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|solutionrelative:project_c#\\producement_productcontractactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\project_c#\\producement_contractactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|solutionrelative:project_c#\\producement_contractactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\project_c#\\producement_contractactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|solutionrelative:project_c#\\producement_contractactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,24 +71,8 @@
       "RelativeMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|solutionrelative:project_c#\\products_actions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|c:\\users\\alex\\desktop\\c#\\rad_system\\project_c#\\project_c#\\producement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|solutionrelative:project_c#\\producement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\project_c#\\producers_actions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|solutionrelative:project_c#\\producers_actions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\project_c#\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|solutionrelative:project_c#\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\project_c#\\app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|solutionrelative:project_c#\\app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|c:\\users\\alex\\desktop\\c#\\rad_system\\project_c#\\project_c#\\producers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDCDF426-916D-4252-BC40-60E3FB66AA91}|Project_C#\\Project_C#.csproj|solutionrelative:project_c#\\producers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 387,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,31 +90,94 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Producers_Actions.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\Producers_Actions.cs",
-              "RelativeDocumentMoniker": "Project_C#\\Producers_Actions.cs",
-              "ToolTip": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\Producers_Actions.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "RelativeToolTip": "Project_C#\\Producers_Actions.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentIndex": 1,
+              "Title": "ReportForm.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\ReportForm.cs",
+              "RelativeDocumentMoniker": "Project_C#\\ReportForm.cs",
+              "ToolTip": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\ReportForm.cs",
+              "RelativeToolTip": "Project_C#\\ReportForm.cs",
+              "ViewState": "AQIAAKQAAAAAAAAAAAAgwGsAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T21:41:21.044Z",
+              "WhenOpened": "2024-05-19T12:35:20.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReportForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\ReportForm.cs",
+              "RelativeDocumentMoniker": "Project_C#\\ReportForm.cs",
+              "ToolTip": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\ReportForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "Project_C#\\ReportForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:27:57.131Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
+              "Title": "App.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\App.cs",
+              "RelativeDocumentMoniker": "Project_C#\\App.cs",
+              "ToolTip": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\App.cs",
+              "RelativeToolTip": "Project_C#\\App.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:09:08.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GraphForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\GraphForm.Designer.cs",
+              "RelativeDocumentMoniker": "Project_C#\\GraphForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\GraphForm.Designer.cs",
+              "RelativeToolTip": "Project_C#\\GraphForm.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T11:49:14.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GraphForm.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\GraphForm.cs",
+              "RelativeDocumentMoniker": "Project_C#\\GraphForm.cs",
+              "ToolTip": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\GraphForm.cs",
+              "RelativeToolTip": "Project_C#\\GraphForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T11:49:03.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GraphForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\GraphForm.cs",
+              "RelativeDocumentMoniker": "Project_C#\\GraphForm.cs",
+              "ToolTip": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\GraphForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "Project_C#\\GraphForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T08:54:10.919Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Producement_ContractActions.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\Producement_ContractActions.cs",
               "RelativeDocumentMoniker": "Project_C#\\Producement_ContractActions.cs",
               "ToolTip": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\Producement_ContractActions.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "RelativeToolTip": "Project_C#\\Producement_ContractActions.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T21:40:34.96Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+              "WhenOpened": "2024-05-18T21:40:34.96Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
               "Title": "Producement_ContractActions.cs",
               "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\Producement_ContractActions.cs",
               "RelativeDocumentMoniker": "Project_C#\\Producement_ContractActions.cs",
@@ -94,25 +185,24 @@
               "RelativeToolTip": "Project_C#\\Producement_ContractActions.cs",
               "ViewState": "AQIAAFsAAAAAAAAAAAAkwHcAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T17:46:18.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T17:46:18.577Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Producement.cs",
               "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\Producement.cs",
               "RelativeDocumentMoniker": "Project_C#\\Producement.cs",
               "ToolTip": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\Producement.cs",
               "RelativeToolTip": "Project_C#\\Producement.cs",
-              "ViewState": "AQIAAHYAAAAAAAAAAAAAwIQAAAB5AAAA",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAqwHMAAABnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-18T15:46:37.711Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "Producers.cs",
               "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\Producers.cs",
               "RelativeDocumentMoniker": "Project_C#\\Producers.cs",
@@ -125,20 +215,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Producers_Actions.cs",
-              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\Producers_Actions.cs",
-              "RelativeDocumentMoniker": "Project_C#\\Producers_Actions.cs",
-              "ToolTip": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\Producers_Actions.cs",
-              "RelativeToolTip": "Project_C#\\Producers_Actions.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAYwDUAAAArAAAA",
+              "DocumentIndex": 4,
+              "Title": "Products.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\Products.cs",
+              "RelativeDocumentMoniker": "Project_C#\\Products.cs",
+              "ToolTip": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\Products.cs",
+              "RelativeToolTip": "Project_C#\\Products.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwCkAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T21:34:46.785Z",
+              "WhenOpened": "2024-05-16T19:27:43.681Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Producement.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\Producement.cs",
               "RelativeDocumentMoniker": "Project_C#\\Producement.cs",
@@ -150,7 +240,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
+              "Title": "Products.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\Products.cs",
+              "RelativeDocumentMoniker": "Project_C#\\Products.cs",
+              "ToolTip": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\Products.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "Project_C#\\Products.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T15:22:38.754Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "App.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\App.cs",
               "RelativeDocumentMoniker": "Project_C#\\App.cs",
@@ -162,19 +264,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
+              "Title": "Producers_Actions.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\Producers_Actions.cs",
+              "RelativeDocumentMoniker": "Project_C#\\Producers_Actions.cs",
+              "ToolTip": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\Producers_Actions.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "Project_C#\\Producers_Actions.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T21:41:21.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Producers_Actions.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\Producers_Actions.cs",
+              "RelativeDocumentMoniker": "Project_C#\\Producers_Actions.cs",
+              "ToolTip": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\Producers_Actions.cs",
+              "RelativeToolTip": "Project_C#\\Producers_Actions.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAYwDUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T21:34:46.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Producement_ProductContractActions.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\Producement_ProductContractActions.cs",
               "RelativeDocumentMoniker": "Project_C#\\Producement_ProductContractActions.cs",
               "ToolTip": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\Producement_ProductContractActions.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "RelativeToolTip": "Project_C#\\Producement_ProductContractActions.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T17:38:14.104Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+              "WhenOpened": "2024-05-18T17:38:14.104Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 16,
               "Title": "Products_Actions.cs",
               "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\Products_Actions.cs",
               "RelativeDocumentMoniker": "Project_C#\\Products_Actions.cs",
@@ -182,21 +306,7 @@
               "RelativeToolTip": "Project_C#\\Products_Actions.cs",
               "ViewState": "AQIAACoAAAAAAAAAAAAYwDoAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T19:38:37.453Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Products.cs",
-              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\Products.cs",
-              "RelativeDocumentMoniker": "Project_C#\\Products.cs",
-              "ToolTip": "C:\\Users\\Alex\\Desktop\\C#\\RAD_System\\Project_C#\\Project_C#\\Products.cs",
-              "RelativeToolTip": "Project_C#\\Products.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAQwFwAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T19:27:43.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T19:38:37.453Z"
             }
           ]
         }

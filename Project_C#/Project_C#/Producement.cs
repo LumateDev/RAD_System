@@ -33,8 +33,38 @@ namespace project_RAD
 
         private void update()
         {
+            // Старые запросы
             String sql = "Select * from contract";
             String sql1 = "Select * from product_contract";
+
+            /*
+            // Новые запросы с JOIN для получения имен вместо идентификаторов
+            String sql = @"
+                SELECT 
+                    c.contract_id, 
+                    p.producer_name, 
+                    c.total_sum, 
+                    c.sign_date, 
+                    c.payment_status, 
+                    c.overdue_payment_status, 
+                    c.payment 
+                FROM 
+                    contract c
+                JOIN 
+                    producers p ON c.producer_id = p.producer_id";
+
+            String sql1 = @"
+                SELECT 
+                    pc.product_contract_id, 
+                    pr.product_name, 
+                    pc.contract_id, 
+                    pc.product_count, 
+                    pc.local_total_sum 
+                FROM 
+                    product_contract pc
+                JOIN 
+                    products pr ON pc.product_id = pr.product_id";
+            */
 
             NpgsqlDataAdapter da = new NpgsqlDataAdapter(sql, con);
             NpgsqlDataAdapter da1 = new NpgsqlDataAdapter(sql1, con);
@@ -48,7 +78,8 @@ namespace project_RAD
             dtContract = dsContract.Tables[0];
             dataGridViewContract.DataSource = dtContract;
             dataGridViewContract.Columns[0].HeaderText = "contract_id";
-            dataGridViewContract.Columns[1].HeaderText = "producer_id";
+            // dataGridViewContract.Columns[1].HeaderText = "producer_name"; // Изменение заголовка столбца
+            dataGridViewContract.Columns[1].HeaderText = "producer_id"; // Старый заголовок
             dataGridViewContract.Columns[2].HeaderText = "total sum";
             dataGridViewContract.Columns[3].HeaderText = "sign date";
             dataGridViewContract.Columns[4].HeaderText = "payment status";
@@ -58,11 +89,11 @@ namespace project_RAD
             dtProductContract = dsProductContract.Tables[0];
             dataGridViewProductContract.DataSource = dtProductContract;
             dataGridViewProductContract.Columns[0].HeaderText = "product_contract_id";
-            dataGridViewProductContract.Columns[1].HeaderText = "product_id";
+            // dataGridViewProductContract.Columns[1].HeaderText = "product_name"; // Изменение заголовка столбца
+            dataGridViewProductContract.Columns[1].HeaderText = "product_id"; // Старый заголовок
             dataGridViewProductContract.Columns[2].HeaderText = "contract_id";
             dataGridViewProductContract.Columns[3].HeaderText = "product_count";
             dataGridViewProductContract.Columns[4].HeaderText = "local_total_sum";
-         
         }
 
         private void buttonConstractAdd_Click(object sender, EventArgs e)
@@ -79,19 +110,23 @@ namespace project_RAD
             try
             {
                 int contract_id = (int)dataGridViewContract.CurrentRow.Cells["contract_id"].Value;
-                int producer_id = (int)dataGridViewContract.CurrentRow.Cells["producer_id"].Value;
+                //String producer_name = (String)dataGridViewContract.CurrentRow.Cells["producer_name"].Value; // Новая строка
+                int producer_id = (int)dataGridViewContract.CurrentRow.Cells["producer_id"].Value; // Старая строка
                 String payment_status = (String)dataGridViewContract.CurrentRow.Cells["payment_status"].Value;
                 DateTime dateTime = (DateTime)dataGridViewContract.CurrentRow.Cells["sign_date"].Value;
                 decimal payment = (Decimal)dataGridViewContract.CurrentRow.Cells["payment"].Value;
 
-                Producement_ContractActions pAdd = new Producement_ContractActions(con, "edit", contract_id, producer_id, dateTime, payment, payment_status );
+                /*
+                // Найти producer_id по producer_name
+                int producer_id = GetProducerIdByName(producer_name);
+                */
+
+                Producement_ContractActions pAdd = new Producement_ContractActions(con, "edit", contract_id, producer_id, dateTime, payment, payment_status);
                 pAdd.ShowDialog();
                 update();
-
             }
             catch (Exception)
             {
-
                 MessageBox.Show("Error");
             }
         }
@@ -131,19 +166,22 @@ namespace project_RAD
             try
             {
                 int product_contract_id = (int)dataGridViewProductContract.CurrentRow.Cells["product_contract_id"].Value;
-                int product_id = (int)dataGridViewProductContract.CurrentRow.Cells["product_id"].Value;
+                // String product_name = (String)dataGridViewProductContract.CurrentRow.Cells["product_name"].Value; // Новая строка
+                int product_id = (int)dataGridViewProductContract.CurrentRow.Cells["product_id"].Value; // Старая строка
                 int contract_id = (int)dataGridViewProductContract.CurrentRow.Cells["contract_id"].Value;
                 int product_count = (int)dataGridViewProductContract.CurrentRow.Cells["product_count"].Value;
 
+                /*
+                // Найти product_id по product_name
+                int product_id = GetProductIdByName(product_name);
+                */
 
                 Producement_ProductContractActions pAdd = new Producement_ProductContractActions(con, "edit", contract_id, product_id, product_count, product_contract_id);
                 pAdd.ShowDialog();
                 update();
-
             }
             catch (Exception)
             {
-
                 MessageBox.Show("Error");
             }
         }
@@ -166,6 +204,26 @@ namespace project_RAD
             {
 
                 MessageBox.Show("Error");
+            }
+        }
+
+        private int GetProducerIdByName(string producer_name)
+        {
+            string sql = "SELECT producer_id FROM producers WHERE producer_name = @producer_name";
+            using (NpgsqlCommand command = new NpgsqlCommand(sql, con))
+            {
+                command.Parameters.AddWithValue("producer_name", producer_name);
+                return (int)command.ExecuteScalar();
+            }
+        }
+
+        private int GetProductIdByName(string product_name)
+        {
+            string sql = "SELECT product_id FROM products WHERE product_name = @product_name";
+            using (NpgsqlCommand command = new NpgsqlCommand(sql, con))
+            {
+                command.Parameters.AddWithValue("product_name", product_name);
+                return (int)command.ExecuteScalar();
             }
         }
     }
